@@ -1,0 +1,24 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("Hello World");
+		int spendy = 700;
+		int price = 1500;
+		int results= price - spendy;
+		string thang= "A New Laptop";
+		bool affordable = false;
+		Console.WriteLine("What do I need?: " + thang);
+		Console.WriteLine("How much can I spend: " + spendy);
+		Console.WriteLine("How much does it cost?: " + price);
+		Console.WriteLine("Can I afford it?");
+		Console.WriteLine(price + " - " + spendy + " = " + results);
+		Console.WriteLine(affordable);
+		Console.WriteLine("Can ya spare some cash? Anything helps. (Type a number):");
+		string willingness = Console.ReadLine();
+		Console.WriteLine("Wow! $" + willingness + "! Thanks a ton!");
+		
+	}
+}
